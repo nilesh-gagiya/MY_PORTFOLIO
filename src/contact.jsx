@@ -18,7 +18,7 @@ const Contact = () => {
       <div className="contact-info-upper-container" data-aos="flip-up" data-aos-delay="300">
         <div className="contact-info-container">
           <img src={emailIcon} alt="Email icon" className="icon contact-icon email-icon" />
-          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+          <p><a href="mailto:nileshgagiya49@gmail.com">nileshgagiya49@gmail.com</a></p>
         </div>
         <div className="contact-info-container">
           <img src={linkedinIcon} alt="LinkedIn icon" className="icon contact-icon" />

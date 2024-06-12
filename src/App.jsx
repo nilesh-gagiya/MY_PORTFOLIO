@@ -8,11 +8,13 @@ import About from './about';
 import Experience from './expreri';
 import Projects from './project';
 import Contact from './contact';
+
 import Footer from './footer';
 AOS.init();
 
 
 function App() {
+
 
   return (
     <>
@@ -23,6 +25,7 @@ function App() {
     <Projects/>
     <Contact/>
     <Footer/>
+    
     </>
 
   )
