@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import aboutPic from './assets/about-pic.png';
+import aboutPic from './assets/about-pic.jpg';
 import educationIcon from './assets/education.png';
 import experienceIcon from './assets/experience.png';
 

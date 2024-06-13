@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import project1 from './assets/project-1.png';
-import projectB from './assets/project-b.png';
+import projectB from './assets/project-1b.png';
 import projectC from './assets/project-c.png';
 
 const Projects = () => {

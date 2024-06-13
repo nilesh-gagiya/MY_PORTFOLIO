@@ -493,6 +493,7 @@ footer p {
   max-width: 100%;
   height: auto;
   margin-bottom: 20px;
+  border-radius: 9px;
 }
 
 .section__text__p1_text-container {
@@ -610,4 +611,81 @@ footer p {
 @keyframes blink {
   from, to { border-color: transparent; }
   50% { border-color: orange; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.xyz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 380px;
+}
+
+.blob {
+  background-color:orange;
+  width: 80vw;
+  height: 80vw;
+  max-width: 200px;
+  max-height: 200px;
+  background-size: cover;
+  background-position: center center;
+  margin: 20px;
+  box-shadow: 0 5px 15px rgba(13, 110, 253, 0.2);
+  animation: animate 8s ease-in-out infinite;
+  transition: all 1s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 93%;
+  height: 93%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+@keyframes animate {
+  0%, 100% {
+      border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  25% {
+      border-radius: 50% 50% 40% 60% / 40% 60% 40% 60%;
+  }
+  50% {
+      border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+  75% {
+      border-radius: 40% 70% 60% 50% / 60% 40% 60% 40%;
+  }
+}
+
+@media (max-width: 600px) {
+  .blob {
+      width: 90vw;
+      height: 90vw;
+      max-width: 150px;
+      max-height: 150px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .blob {
+      width: 30vw;
+      height: 30vw;
+      max-width: 300px;
+      max-height: 300px;
+  }
 }
