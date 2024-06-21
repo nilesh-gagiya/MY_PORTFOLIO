@@ -11,7 +11,7 @@ const Profile = () => {
   }, []);
 
   const openResume = () => {
-    window.open('/Nilesh_gagiya (1).pdf');
+    window.open('/Nilesh_gagiya.pdf');
   };
 
   const goToContact = () => {

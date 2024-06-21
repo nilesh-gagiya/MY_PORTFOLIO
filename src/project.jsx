@@ -25,7 +25,7 @@ const Projects = () => {
       textAOS: "fade-down-left"
     },
     {
-      title: "Pinterest clone",
+      title: "SecureWeb",
       description: `Experienced full-stack developer proficient in React, EJS, CSS Bootstrap, and Passport.js for
       authentication. Skilled in building user registration, login functionality, and file upload features
       using Express.js, Node.js, and MongoDB. Implemented secure authentication methods using
